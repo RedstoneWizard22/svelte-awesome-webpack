@@ -3,11 +3,11 @@
   "include": ["src/**/*", "src/node_modules/**/*"],
   "exclude": ["node_modules/*", "__sapper__/*", "static/*"],
   "compilerOptions": {
-    "target": "ES2017",
-    "lib": ["ESNext", "dom"],
-    "module": "ESNext",
+    "target": "es2017",
+    "lib": ["esNext", "dom"],
+    "module": "esNext",
     "noEmit": false,
     "strict": true,
-    "moduleResolution": "node",
+    "moduleResolution": "node"
   }
 }

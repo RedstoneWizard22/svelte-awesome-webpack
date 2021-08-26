@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply w-full h-full relative;
+  }
+
+  body {
+    @apply text-gray-600 m-0 p-2 box-border;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+
+  a {
+    @apply text-blue-600 no-underline;
+  }
+
+  a:hover {
+    @apply underline;
+  }
+
+  a:visited {
+    @apply text-indigo-600;
+  }
+}

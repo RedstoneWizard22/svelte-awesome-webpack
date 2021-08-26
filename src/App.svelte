@@ -1,13 +1,5 @@
 <script lang="ts">
   export let name: string;
-
-  const test = {
-    func1: () => console.log('yay'),
-  };
-
-  test.func1?.();
-  //@ts-ignore
-  test.func2?.();
 </script>
 
 <main>
